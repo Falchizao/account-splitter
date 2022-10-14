@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearMain"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edt_valueDespesa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Valor:"
+        android:inputType="numberDecimal" />
+
+    <CheckBox
+        android:id="@+id/cb_despesaCompartilhada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Despesa compartilhada"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="96dp"
+        android:layout_height="45dp"
+        android:text="Quem Paga:" />
+
+    <Spinner
+        android:id="@+id/nomes_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:minHeight="48dp" />
+
+
+    <Button
+        android:id="@+id/btn_cadastrarDespesa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar Despesa" />
+
+
+</LinearLayout>
